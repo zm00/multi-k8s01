@@ -7,7 +7,6 @@ services:
 before_install:
   - docker build -t zm00/react-test -f ./client/Dockerfile.dev ./client
 
-# test
 script:
   - docker run -e CI=true zm00/react-test npm test
 
