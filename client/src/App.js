@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './Green.jpg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import OtherPage from './OtherPage';
@@ -12,7 +12,7 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Hello K8S! Final!</h1>
+            <h1 className="App-title">Hello K8S!</h1>
             <Link to="/">Home</Link>
             <Link to="/OtherPage">Other Page</Link>
           </header>
